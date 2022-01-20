@@ -1,23 +1,29 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Car sharing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&family=Source+Sans+Pro:wght@300;600;700&display=swap"
+            rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&family=Open+Sans:wght@300;400&family=Source+Sans+Pro:wght@300;600;700&display=swap"
+            rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&family=Source+Sans+Pro:wght@300;600;700&display=swap"
-          rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&family=Open+Sans:wght@300;400&family=Source+Sans+Pro:wght@300;600;700&display=swap"
-          rel="stylesheet">
 </head>
+
 <body>
+<!-- strona home -->
 <header class="page-header">
     <div class="nav-bar">
         <div class="container">
@@ -30,32 +36,157 @@
             <nav class="page-nav">
                 <ul class="page-nav-list">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-
         </div>
     </div>
-    <section class="container">
-        <h1 class="banner-title">
-            Car sharing
-        </h1>
-        <p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.</p>
-        <div class="banner-buttons">
-            <a href="#" class="btn-1">
-                Share a car
-            </a>
-            <a href="#" class="btn-2">
-                Key features
-            </a>
+    <section class="banner">
+        <div class="container">
+            <h1 class="banner-title">Car sharing</h1>
+            <p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris
+                nisi ut
+                aliquip ex ea commodo consequat.</p>
+            <div class="banner-buttons">
+                <a href="#" class="btn-1">
+                    Share a car
+                </a>
+                <a href="#" class="btn-2">
+                    Key features
+                </a>
+            </div>
         </div>
-
     </section>
-    <div class="arrow-down"><img src="images/Icon Arrow Down.svg"></div>
+    <a href="#blog" class="arrow-down"><img src="images/Icon Arrow Down.svg"></a>
 </header>
+
+<!-- tu zaczyna się podstrona blog -->
+<section id="blog">
+    <h2 class="section-title"><span>Blog</span></h2>
+    <!--tu trzeba before i after-->
+    <div class="container">
+        <div class="articles">
+            <article class="blog-article">
+                <img src="../carsharing/images/photo1.png">
+                <h3 class="article-title">Lorem ipsum dolor sit.</h3>
+                <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn">Read more</a>
+            </article>
+
+            <article class="blog-article">
+                <img src="../carsharing/images/photo2.png">
+                <h3 class="article-title">Lorem ipsum dolor sit.</h3>
+                <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn">Read more</a>
+            </article>
+
+            <article class="blog-article">
+                <img src="../carsharing/images/photo3.png">
+                <h3 class="article-title">Lorem ipsum dolor sit.</h3>
+                <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn">Read more</a>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!--tu zaczyna się podstrona service-->
+<section id="service">
+    <h2 class="section-title"><span>Service</span></h2>
+    <!--tu trzeba before i after-->
+    <div class="container">
+
+        <div class="articles">
+            <article class="service-article">
+                <img src="../carsharing/images/mini1.png">
+                <h3 class="article-title">Lorem ipsum dolor sit.</h3>
+                <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn">Read more</a>
+            </article>
+
+            <article class="service-article">
+                <img src="../carsharing/images/mini2.png">
+                <h3 class="article-title">Lorem ipsum dolor sit.</h3>
+                <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn">Read more</a>
+            </article>
+
+            <article class="service-article">
+                <img src="../carsharing/images/mini3.png">
+                <h3 class="article-title">Lorem ipsum dolor sit.</h3>
+                <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn">Read more</a>
+            </article>
+
+            <article class="service-article">
+                <img src="../carsharing/images/mini4.png">
+                <h3 class="article-title">Lorem ipsum dolor sit.</h3>
+                <p class="article-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article-btn">Read more</a>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title"><span>Contact</span></h2>
+    <!--tu trzeba before i after-->
+    <div class="container">
+        <img src="images/Form%20Photo.png" alt="form-photo">
+        <div class="contact-form">
+            <input type="text" class="form" placeholder="Type your name">
+            <input type="email" class="form" placeholder="Type your e-mail">
+            <textarea name="message" class="form" id="message" cols="30" rows="10"
+                      placeholder="Type your message"></textarea>
+            <label class="checkbox">
+                <input type="checkbox">
+                <span>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</span>
+            </label>
+            <button class="send-btn">Send</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="logo">
+            <img src="images/Logo%20Footer.svg" alt="Car sharing">
+            <span class="car">Car </span><span>sharing</span>
+        </div>
+        <div class="footer-nav">
+            <div class="footer-nav-list">
+                <ul>
+                    <li><a href="#">Home page</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Share regulation</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Our fleet</a></li>
+                    <li><a href="#">Our clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Coders Lab</p>
+            </div>
+        </div>
+</footer>
+
 </body>
+
 </html>
